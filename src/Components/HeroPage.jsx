@@ -6,7 +6,7 @@ function HomePage() {
       <div>
        <section className="bg-gradient-to-tr from-[#0e1825] via-[#1e2a3a] to-[#2eb2d3] h-screen text-white py-24 md:p-20">
           <div className="md:flex gap-4">
-            <div className="px-6 mb-10 animate-slideRight duration-1000">
+            <div className="px-6 mb-10 ">
               <div className="text-3xl mb-6 font-semibold">
                 <p>I'm <span className="text-[#2eb2d3]">developer</span></p>
                 <p>Kolawole A Dolapo</p>

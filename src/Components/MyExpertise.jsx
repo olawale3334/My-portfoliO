@@ -25,13 +25,13 @@ function Expertise() {
     return(
         <>
         <div className="">
-             <section id="services" className="bg-[#0e1825] px-6 text-white">
+             <section id="services" className="bg-[#0e1825] overflow-hidden px-6 text-white">
       <div class="py-20">
         <div className="mb-5">
            <h1 class="font-bold text-3xl">my <span class="text-[#2eb2d3] ">Skills</span></h1>
            <p class="md:w-[40rem] mt-5 text-gray-400"> A skilled web  developer  with a passion for creating innovative digital solutions. With expertise in HTML, CSS, JavaScript, React and Tailwindcss. I'm currently building my portfolio and looking for new opportunities to showcase my skills and work with clients.</p>
         </div>
-        <div className=" grid grid-cols-1 md:-grid-cols-3 lg:grid-cols-3 gap-6 mt-10 ">
+        <div className=" grid grid-cols-1 md:-grid-cols-3 lg:grid-cols-3 gap-6 mt-10  overflow-visible">
             {skills.map((skill,i) =>(
                 <div key={i} className="bg-[#1a1f2e] md:w-[23rem]   p-6 rounded-2xl shadow-lg border border-cyan-500 transition transform hover:-translate-y-2 hover:scale-105 hover:border-cyan-200 duration-300"   
              data-aos={i % 2 === 0 ? "fade-right" : "fade-left"}
