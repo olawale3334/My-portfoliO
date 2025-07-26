@@ -26,10 +26,10 @@ export default {
        
       },
        animation: {
-        fadeIn: 'fadeIn 1s ease-out forwards',
-        slideUp: 'slideUp 0.8s ease-out forwards',
-        slideRight: 'slideRight 1s ease-out forwards',
-        slideLeft: 'slideRight 1s ease-out forwards',
+        fadeIn: 'fadeIn 5s ease-out forwards',
+        slideUp: 'slideUp 5s ease-out forwards',
+        slideRight: 'slideRight 5s ease-out forwards',
+        slideLeft: 'slideRight 5s ease-out forwards',
       },
     },
   },

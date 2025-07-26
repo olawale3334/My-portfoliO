@@ -11,7 +11,7 @@ function Nav() {
                 <a href="">Home</a>
                 <a href="">About me</a>
                 <a href="">Services</a>
-                <a href="">contact</a>
+                <a href="">Contact</a>
             </div>
             
             </div>
