@@ -9,7 +9,7 @@ function Nav() {
             <div class="hidden md:block">
             <div class="flex gap-5">
                 <a href="">Home</a>
-                <a href="">About me</a>
+                <a href="">About Me</a>
                 <a href="">Services</a>
                 <a href="">Contact</a>
             </div>

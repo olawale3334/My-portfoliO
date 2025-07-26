@@ -2,24 +2,31 @@ import { useState,useEffect } from "react"
 import reactIcon from '/react.svg'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import css from '/css-3-svgrepo-com.svg'
+import js from '/javascript-svgrepo-com.svg'
+import html from '/html5-01-svgrepo-com.svg'
+import ui from '/Ux Ui Design.png'
+import tailwind from '/icons8-tailwind-css-50.svg'
+
+
 
 function Expertise() {
 
     useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1000,
       once: true,
     });
   }, []);
 
     
     const [skills] = useState([
-    { title: "HTML", image:"a", description: "Semantic, accessible markup" },
-    { title: "CSS", image: 'a', description: "Responsive design, animations" },
-    { title: "JavaScript", image: 'a', description: "ES6+, DOM, async logic" },
+    { title: "HTML", image:html, description: "Semantic, accessible markup" },
+    { title: "CSS", image: css, description: "Responsive design, animations" },
+    { title: "JavaScript", image: js, description: "ES6+, DOM, async logic" },
     { title: "React", image: reactIcon, description: "Components, hooks, JSX" },
-    { title: "Tailwind CSS", image: "tailwindIcon", description: "Utility-first styling" },
-    { title: "UI/UX", image: "uiIcon", description: "Clean, user-focused interfaces" },])
+    { title: "Tailwind CSS", image: tailwind, description: "Utility-first styling" },
+    { title: "UI/UX", image: ui, description: "Clean, user-focused interfaces" },])
 
    
     return(
