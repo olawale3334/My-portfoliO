@@ -6,8 +6,7 @@ import HomePage from './Components/HeroPage'
 import './index.css'
 import Nav from './Components/Header'
 import Expertise from './Components/MyExpertise'
-
-
+import Contacts from './Components/Contacts';
 function App() {
    useEffect(() => {
     AOS.init({
@@ -22,6 +21,7 @@ function App() {
        <Nav/>
       <HomePage/>
       <Expertise />
+      <Contacts/>
      </div>
     
   )
