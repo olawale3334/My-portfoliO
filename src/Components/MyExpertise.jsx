@@ -32,7 +32,7 @@ function Expertise() {
     return(
         <>
         <div className="">
-             <section id="services" className="bg-[#0e1825] overflow-hidden px-6 text-white">
+             <section id="services" className="bg-[#0e1825] overflow-hidden  min-h-screen px-6 text-white">
       <div class="py-20">
         <div className="mb-5">
            <h1 class="font-bold text-3xl">my <span class="text-[#2eb2d3] ">Skills</span></h1>

@@ -12,7 +12,7 @@ function HomePage() {
       }, []);
   return (
     <>
-      <div>
+      <div id='home'>
        <section className="bg-gradient-to-tr from-[#0e1825] via-[#1e2a3a] to-[#2eb2d3] h-screen text-white py-24 md:p-20">
           <div className="md:flex gap-4">
             <div className="px-6 mb-10 leading-7 " data-aos="fade-down" data-aos-delay="500">
